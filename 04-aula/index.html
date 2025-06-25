@@ -1,162 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>formulario de cadastro</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
     <h1>FORMULÁRIO</h1>
     <form action="" method="">
         <fieldset>
-        <legend> dados de login</legend>
-      <label for="nome"> Nome: </label>
-      <input
-        type="text"
-        id="nome"
-       placeholder="digite seu nome..."
-        maxlength="28"
-      />
-      <br />
-      <br />
+            <legend> Dados Pessoais</legend>
+            <label for="Nome">Nome:</label>
 
-      <label for="email"> Email: </label>
-      <input type="email" nome="email" id="email" />
-      <placeholder="digite seu email..." />
-      <br />
-      <br />
-      <!-- caixinha de senha-->
-      <label for="senha">senha</label>
-      <input type="password"name" id="senha"> <placeholder="senha misterosa" />
-      <br><br> />
-      <!-- botao para enviar o formulario-->
-       <input type="submit" value="login" />
-       </fieldset>
-    </form>
-    <br><br>
-    <!-- outros inputs-->
-     <!--Datas-->
-     <label for=""> data de nascimento</label>
-     <<input type="date" id="data">
-     <input type="datetime-local">
-     <input type="time" >
-     <br><br>
-     <!-- telefone-->
-      <label for="telefone"> telefone:</label>
-      <input type="tel" name="telefone">
-      />
+            <input 
+            type="text"
+            id="nome"
+            maxlength="28" 
+            />
+            <br><br>
+
+        <label for="Endereço">Endereço:</label>
+        <input type="endereço" nome="endereço" id="endereço" />
+        <br><br>
+
+        <label for="Cidade">Cidade:</label>
+      <input type="cidade" name="cidade" id="cidade" />
       <br><br>
-      <!-- texto maior-->
-       <label for="textao"> texto grande</label>
+    <label for="Estados">Estado</label>
+      <select name="Estado" id="Estado">
+        <option value="">mato Grosso</option>
+         <option value="">ES</option>
+          <option value="">RJ</option>
+           <option value="">SP</option>
+           <option value="">Santa catarina</option>
+           <option value="">paraná</option>
+           <option value="">Goiais</option>
+           />
+           <br>
+           </fieldset>
+           <br><br>
+    </form>
+     <br><br>
+     
+    <form action="" method="">
+        <fieldset>
+            <input 
+            type="text"
+            id="nome"
+            maxlength="28" 
+            />
+            <br><br>
+        <fieldset>
+            <legend> Dados Profissionais</legend>
+            <label for="">Naturza do cargo</label>
+      <br>
+      <input type="radio" name="curso" value="gerência"> gerência
+      <input type="radio" name="curso" value="Financeiro">  financeiro
+      <input type="radio" name="curso" value="recepção">  recepção
+        <input type="radio" name="curso" value="administrativo">  administrativo
+          <input type="radio" name="curso" value="juridico">  juridico
+          <br><br>
+          <legend> Área de interesse</legend>
+      <input type="radio" name="curso" value="Computação"> Computação
+      <input type="radio" name="curso" value="Biologia">  Biologia
+      <input type="radio" name="curso" value="Meio Ambiente">  meio Ambiente
+        <input type="radio" name="curso" value="Engenharia">  Engenharia
+          <input type="radio" name="curso" value="Historia">  Historia
+          <br><br><br>
+          
+           <label for="mini-curriculo"> Mini-curriculo:</label>
        <textarea
-       name="textao"
-       id="textao
-       placeholder="texto legal..."
+       name="curriculo"
+       id="curriculo
+       placeholder="texto..."
        >
     </textarea>
-    <br><br>
-    <!-- cores-->
-     <label for="cor">cor:</label>
-     <input type="color" name="cor" id="cor">
-     <br><br>
-     <!-- numeros-->
-      <label for="numero">número:</label>
-      <input type="number" min="-50" max="100" value="7" step="5"/>
-      <!--barrinha-->
-      <br><br>
-      <label for="barra"> barrinha topp</label>
-      0 <input type="range" name="barra" id="barra"
-      min="0" max="100" step="20"/> 100
-
-      <br><br>
-      <!--caixinha de seleção-->
-      <label for="">selecione seu curso</label>
-      <br>
-      <input type="radio" name="curso" value="eletrica">  Elétrica
-      <br>
-      <input type="radio" name="curso" value="mecanica">  mecanica
-      <br>
-      <input type="radio" name="curso" value="T.I">  T.I
-
-      <br><br>
-      <label for="">redes sociais</label>
-      <br>
-      <input type="checkbox" name="tec1" value="zap"> zap
-      <input type="checkbox" name="tec2" value="face"> face
-      <input type="checkbox" name="tec3" value="tkk"> tkk
-      <br><br>
-      <!--seleçao-->
-      <label for="cidades">selecione sua cidade:</label>
-      <select name="cidades" id="cidade">
-        <option value="">cariacica</option>
-         <option value="">guarapari</option>
-          <option value="">B.C </option>
-           <option value=""> tóquio</option>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
-      </select>
-
-  </body>
+    
+    
+</body>
 </html>
