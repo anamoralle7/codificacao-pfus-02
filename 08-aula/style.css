@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+
+
+body{
+    background-color: rgb(221, 4, 4);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+P{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#na-direita{
+    text-align: right;
+}
+
+#na-esquerda{
+    text-align: left;
+}
+#no-centro{
+    text-align: center;
+}
+#justificado{
+    text-align: justify;
+}
+#minusculo{
+    text-transform: lowercase;
+
+}
+#maiusculo{
+    text-transform: uppercase;
+}
+#capitalizado{
+    text-transform: capitalize;
+}
+H1{
+    font-size: 80px;
+    font-weight: 400;
+    text-shadow: 5px 5px black;
+}
+#decorado{
+    text-decoration: overline underline;
+}
+#outra-fonte{
+    font-family: Impact, sans-serif;
+    color: rgb(165, 8, 8);
+}
+#fonte-google{
+     font-family: "Manufacturing Consent", system-ui;
+}
+@font-face{
+    font-family: 'sevillana';
+    src: url("./fontes/Sevillana-Regular.ttf");
+}
+#fonte-personalizada{
+     font-family: 'sevillana',sans-serif;
+     font-size: 50px;
+}
