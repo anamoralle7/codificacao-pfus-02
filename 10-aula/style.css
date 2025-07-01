@@ -1,0 +1,33 @@
+body{
+    background-color: blue;
+    height: 2000px;
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    background-color: beige;
+    width: 100%;
+    height: 150px;
+}
+#menu{
+    position: sticky;
+    background-color: chocolate;
+}
+
+#menu1 > ul{
+    list-style: none;
+    text-align: center;
+}
+#menu1 > ul > li {
+    color: black;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    display: inline-block;
+    line-height: 50px;
+}
+#menu1 > ul > li:hover{
+    color: black;
+    background-color: darkorange;
+}
