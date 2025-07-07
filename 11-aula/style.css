@@ -7,6 +7,10 @@
 body{
     background-color: rgb(6, 83, 146);
 }
+header{
+    position: sticky;
+    top: 0%;
+}
 
 #navegacao{
     width: 80%;
@@ -16,10 +20,14 @@ body{
     padding: 15px;
     color: black;
     font-size: 30px;
-    overflow: hidden;
+    overflow: auto;
+    position: sticky;
+    top: 0%;
 }
 .simbolo{
+    color: brown;
     font-size: 40px;
+    float: left;
 }
 #item-menu{
     list-style: none;
@@ -42,8 +50,63 @@ li:hover{
 }
 #logo{
     float: left;
-    float: none;
+   
+
+}
+main{
+    background-color: aquamarine;
+    height: 2000px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    font-size: 30px;
+    color: aliceblue;
+}
+#bloco{
+    background-color: blueviolet;
+    height: 200px;
+    width: 100%;
+    display: block;
     text-align: center;
+    line-height: 200px;
+    margin-top: 20px;
+}
+#linha-bloco{
+    background-color: rgb(83, 105, 105);
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+    
+}
+.mimi-bloco{
+    background-color: cornflowerblue;
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+
+}
+#linha{
+    background-color: rgb(43, 2, 109);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(43, 12, 71);
+
+}
+.mimi-linha{
+    background-color: rgb(9, 100, 161);
+    margin-top: 5px;
+    height: 200px;
+    line-height: 200px;
+    width: 50%;
+    display: inline;
+
 }
 @media screen and (max-width:900px){
     body{
@@ -94,5 +157,18 @@ li:hover{
         margin-right: auto;
         font-size: 25px;
       
+    }
+    main{
+        width: 100%;
+        padding: 0%;
+
+    }
+    .mimi-bloco{
+        width: 80%;
+        font-size: 20px;
+    }
+    .mimi-linha{
+        font-size: 20px;
+        line-height: 100px;
     }
 }
